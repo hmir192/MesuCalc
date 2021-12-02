@@ -2,6 +2,7 @@ import math
 
 print("""\nWelcome to mensuration-calculator. Mensuration is the branch of geometry that deals with the measurement
 of area, length, or volume in 2D and 3D shapes. Please select Numbers infront of the given shapes to procceed.\n""")
+
 print("""
 
 --------- 2D Shapes ---------
@@ -11,8 +12,6 @@ print("""
 --------- 3D Shapes ---------
 [1] Cuboids
 [2] Cylinder
-[3] Hemisphere
-[4] Sphere
 
 """)
 
@@ -60,9 +59,8 @@ elif shape == 3:
     p = a + b + c
     print("what kind of calculation do you want to do?\n")
     print("""
-    [1] Calculate Area [# heron's formula]
+    [1] Calculate Area 
     [2] Calculate Perimeter
-    [3] Calculate Area [base*height/2 method]
     """
     )
     oper = int(input())
